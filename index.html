@@ -6,37 +6,30 @@
 	<script>
 $(document).ready(function(){
     $(".proclick").click(function(){
-    	$(".hov").css('font-weight','lighter');
     	$(".hov").css('background-color','transparent');
-		
-		$(this).css('font-weight','bold');
+	
     	$(this).css('background-color','yellow');
     	$(".dis").hide();
         $("#pro").toggle();
     });
 	$(".achiclick").click(function(){
-		$(".hov").css('font-weight','300');
+		
     	$(".hov").css('background-color','transparent');
 
-		$(this).css('font-weight','bold');
     	$(this).css('background-color','yellow');
 		$(".dis").hide();
         $("#achi").toggle();
     });
     $(".posclick").click(function(){
-    	$(".hov").css('font-weight','lighter');
     	$(".hov").css('background-color','transparent');
 
-    	$(this).css('font-weight','bold');
     	$(this).css('background-color','yellow');
 		$(".dis").hide();
         $("#pos").toggle();
     });
      $(".refclick").click(function(){
-     	$(".hov").css('font-weight','lighter');
     	$(".hov").css('background-color','transparent');
 
-     	$(this).css('font-weight','bold');
     	$(this).css('background-color','yellow');
     	$(".dis").hide();
         $("#ref").toggle();
@@ -88,9 +81,7 @@ $(document).ready(function(){
 
 	}
 
-	.hov{
-		font-size: 0.8em;
-	}
+
 	.hov:hover{
 		background-color: yellow;
 	}
