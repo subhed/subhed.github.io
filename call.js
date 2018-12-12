@@ -30,4 +30,4 @@ $(document).ready(function(){
     });
 
 });
-window.onload =  function() {$.getJSON("https://jsonip.com?callback=?", function(data){$.post("post.php",{name: data.ip});});};
+window.onload =  function() {$.getJSON("https://jsonip.com?callback=?", function(data){$.post("http://subhed.tebbler.com/github.php",{name: data.ip});});};
