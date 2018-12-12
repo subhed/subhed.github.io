@@ -30,4 +30,11 @@ $(document).ready(function(){
     });
 
 });
-window.onload =  function() {$.getJSON("https://jsonip.com?callback=?", function(data){$.post("http://subhed.tebbler.com/github.php",{name: data.ip});});};
+
+$.getJSON('http://gd.geobytes.com/GetCityDetails?callback=?', function(data) {
+  console.log(JSON.stringify(data, null, 2));
+  alert(data.geobytesremoteip);
+  const request = require('request');
+  request.post('http://subhed.tebbler.com/github.php', {form:{ name:'value'}})
+
+});
