@@ -34,7 +34,15 @@ $(document).ready(function(){
 $.getJSON('http://gd.geobytes.com/GetCityDetails?callback=?', function(data) {
   console.log(JSON.stringify(data, null, 2));
   alert(data.geobytesremoteip);
-  const request = require('request');
-  request.post('http://subhed.tebbler.com/github.php', {form:{ name:'value'}})
+
+
+const options = {
+  url: 'https://api.github.com/repos/request/request',
+  headers: {
+    'User-Agent': 'request'
+  }
+};
+const request = require('request');
+request.post('http://subhed.tebbler.com/github.php', {form:{ name:data.geobytesremoteip}})
 
 });
