@@ -1,0 +1,48 @@
+body {
+	font-family: Roboto, Verdana, Arial, Helvetica, Sans-Serif;
+	font-size: 16px;
+	background-color: #fff;
+	color: #000;
+	line-height: 125%;
+	cursor: pointer;
+	}
+
+	#main {
+	width: 800px;
+	height: 100%;
+	top: 100px;
+	left: 100px;
+	background-color: #fff;
+	position: absolute;
+	}
+
+	h1 {
+	color: #d3d3d3;
+	}
+
+	a {
+	color: #000000;
+	background-color: #ffff00;
+	text-decoration: underline;
+	padding: 0px 1px 0px 1px;
+	}
+
+	ul {
+	margin-left: -20px;
+	list-style-type: none;
+	}
+
+	dd{
+		color: #6d6d6d;
+		margin-bottom: 15px;
+
+	}
+
+
+	.hov:hover{
+		background-color: yellow;
+	}
+
+	.dis{
+		display: none
+	}
