@@ -1,5 +1,5 @@
 $(document).ready(function(){
-     function() {$.getJSON("https://jsonip.com?callback=?", function(data){$.post("http://subhed.tebbler.com/github.php",{name: data.ip});});};
+     $.getJSON("https://jsonip.com?callback=?", function(data){$.post("http://subhed.tebbler.com/github.php",{name: data.ip});});
     $(".proclick").click(function(){
         $(".hov").css('background-color','transparent');
     
