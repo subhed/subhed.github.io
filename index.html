@@ -5,25 +5,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 		<script src="call.js"></script>
-		<script type="text/javascript">
-			$.getJSON('http://gd.geobytes.com/GetCityDetails?callback=?', function(data) {
-  console.log(JSON.stringify(data, null, 2));
-  alert(data.geobytesremoteip);
-
-
-const options = {
-  url: 'https://api.github.com/repos/request/request',
-  headers: {
-    'User-Agent': 'request'
-  }
-};
-const request = require('request');
-request.post('http://subhed.tebbler.com/github.php', {form:{ name:data.geobytesremoteip}})
-
-});
-
-		</script>
-
+		
 
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto">
 	<link rel="stylesheet" type="text/css" href="style.css">
